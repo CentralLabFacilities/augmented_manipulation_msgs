@@ -1,0 +1,14 @@
+###########################################################
+# This action is used to grasp an object by its name in
+# the PlanningScene. The group used for planning along with
+# its config must also be given.
+
+# name of the object that shall be grasped
+string object_name
+
+# planning group with config name
+GroupConfig group_config
+
+---
+
+---
