@@ -7,7 +7,7 @@
 string object_name
 
 # planning group with config name
-GroupConfig group_config
+GraspConfigSet[] group_config
 
 ---
 

@@ -17,7 +17,7 @@ add_action_files(
 
 add_message_files(
   FILES
-  GroupConfig.msg
+  GraspConfigSet.msg
 )
 
 generate_messages(DEPENDENCIES actionlib_msgs std_msgs)
