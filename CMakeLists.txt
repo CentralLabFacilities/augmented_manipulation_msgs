@@ -6,6 +6,7 @@ find_package(catkin REQUIRED
     actionlib
     message_generation
     std_msgs
+    moveit_msgs
 )
 
 link_directories(${catkin_LIBRARY_DIRS}})
@@ -20,6 +21,6 @@ add_message_files(
   GraspConfigSet.msg
 )
 
-generate_messages(DEPENDENCIES actionlib_msgs std_msgs)
+generate_messages(DEPENDENCIES actionlib_msgs std_msgs moveit_msgs)
 
 catkin_package()

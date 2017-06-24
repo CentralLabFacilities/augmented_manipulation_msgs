@@ -9,6 +9,21 @@ string object_name
 # planning group with config name
 GraspConfigSet[] group_config
 
----
+# The maximum amount of time the motion planner is allowed to plan for
+float64 allowed_planning_time
+
+# Planning options
+moveit_msgs/PlanningOptions planning_options
 
 ---
+
+# The overall result of the pickup attempt
+moveit_msgs/MoveItErrorCodes error_code
+
+# The performed grasp, if attempt was successful
+moveit_msgs/Grasp grasp
+
+---
+
+# The internal state that the pickup action currently is in
+string state
