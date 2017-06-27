@@ -7,7 +7,7 @@
 string object_name
 
 # planning group with config name
-GraspConfigSet[] group_config
+GraspConfigSet[] grasp_config_sets
 
 # The maximum amount of time the motion planner is allowed to plan for
 float64 allowed_planning_time
