@@ -19,6 +19,7 @@ add_action_files(
 add_message_files(
   FILES
   GraspConfigSet.msg
+  AugmentedPickupQuery.msg
 )
 
 generate_messages(DEPENDENCIES actionlib_msgs std_msgs moveit_msgs)
