@@ -11,15 +11,16 @@ find_package(catkin REQUIRED
 
 link_directories(${catkin_LIBRARY_DIRS}})
 
-add_action_files(
-  FILES
-  AugmentedPickup.action
-)
 
 add_message_files(
   FILES
   GraspConfigSet.msg
   AugmentedPickupQuery.msg
+)
+
+add_action_files(
+  FILES
+  AugmentedPickup.action
 )
 
 generate_messages(DEPENDENCIES actionlib_msgs std_msgs moveit_msgs)
